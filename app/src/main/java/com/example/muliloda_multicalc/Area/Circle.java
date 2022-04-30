@@ -1,0 +1,38 @@
+package com.example.muliloda_multicalc.Area;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+
+import com.example.muliloda_multicalc.R;
+
+public class Circle extends AppCompatActivity {
+
+    EditText radius;
+    double var1, ans;
+    TextView answer;
+    Button btnCalc;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.circle);
+        btnCalc = findViewById(R.id.btnCalc);
+        radius = findViewById(R.id.fillin4);
+        answer = findViewById(R.id.answer);
+        btnCalc.setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View view) {
+        var1 = Double.parseDouble(radius.getText().toString());
+        ans = var1 * var1 * Math.PI;
+        answer.setText("The area is: " + ans);
+    }
+
+}
+
