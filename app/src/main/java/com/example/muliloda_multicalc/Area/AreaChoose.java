@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.muliloda_multicalc.R;
 
-public class AreaChoose  extends AppCompatActivity {
+public class AreaChoose  extends AppCompatActivity  {
 
     Button btnSquare;
     Button btnRectangle;

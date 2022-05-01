@@ -104,7 +104,7 @@
         android:id="@+id/imageView11"
         android:layout_width="330dp"
         android:layout_height="373dp"
-        android:src="@drawable/prismVolume"
+        android:src="@drawable/prism_volume"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.456"

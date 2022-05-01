@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.muliloda_multicalc.R;
 
-public class VolumeChoose extends AppCompatActivity {
+public class VolumeChoose extends AppCompatActivity  {
 
     Button btnCone, btnPrism, btnCube;
 
@@ -17,7 +17,7 @@ public class VolumeChoose extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.volume_choose);
-        btnCone = (Button) findViewById(R.id.btnSquare);
+        btnCone = (Button) findViewById(R.id.btnCone);
         btnPrism = (Button) findViewById(R.id.btnPrism);
         btnCube = (Button) findViewById(R.id.btnCube);
 

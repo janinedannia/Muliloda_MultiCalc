@@ -36,7 +36,7 @@ public class Prism extends AppCompatActivity implements View.OnClickListener {
         var2 = Double.parseDouble(txtWidth.getText().toString());
         var3 = Double.parseDouble(txtHeight.getText().toString());
         ans = var1 * var2 * var3;
-        txt_answer.setText("The volume is" + ans);
+        txt_answer.setText("The volume is " + ans);
     }
 
 }

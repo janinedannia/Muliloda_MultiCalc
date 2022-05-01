@@ -87,7 +87,7 @@
         android:id="@+id/imageView10"
         android:layout_width="365dp"
         android:layout_height="325dp"
-        android:src="@drawable/coneVolume"
+        android:src="@drawable/cone_volume"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
