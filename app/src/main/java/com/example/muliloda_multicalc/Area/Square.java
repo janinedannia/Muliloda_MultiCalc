@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Square {
+import com.example.muliloda_multicalc.R;
 
     public class Square extends AppCompatActivity implements View.OnClickListener {
 
@@ -21,7 +21,7 @@ public class Square {
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.square);
-            btn_calc = findViewById(R.id.calculate);
+            btn_calc = findViewById(R.id.btnCalc);
             fillin = findViewById(R.id.fillin);
             answer = findViewById(R.id.answer);
             btn_calc.setOnClickListener(this);
@@ -35,4 +35,4 @@ public class Square {
         }
 
     }
-}
+

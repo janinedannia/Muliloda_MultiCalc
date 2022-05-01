@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.example.muliloda_multicalc.R;
 
-public class Circle extends AppCompatActivity {
+public class Circle extends AppCompatActivity implements View.OnClickListener {
 
     EditText radius;
     double var1, ans;

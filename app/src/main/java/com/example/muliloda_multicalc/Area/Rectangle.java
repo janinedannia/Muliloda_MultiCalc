@@ -8,6 +8,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.muliloda_multicalc.R;
+
 public class Rectangle extends AppCompatActivity implements View.OnClickListener {
 
     EditText length, width;
@@ -19,7 +21,7 @@ public class Rectangle extends AppCompatActivity implements View.OnClickListener
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.rectangle);
-        btnCalc = findViewById(R.id.calculate);
+        btnCalc = findViewById(R.id.btnCalc);
         length = findViewById(R.id.fillin1);
         width = findViewById(R.id.fillin2);
         answer = findViewById(R.id.answer);

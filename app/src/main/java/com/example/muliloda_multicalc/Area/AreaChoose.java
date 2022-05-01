@@ -5,7 +5,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class AreaChoose {
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.muliloda_multicalc.R;
+
+public class AreaChoose  extends AppCompatActivity {
 
     Button btnSquare;
     Button btnRectangle;
@@ -16,8 +20,9 @@ public class AreaChoose {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.area_choose);
-        btnSquare = (Button) findViewbyId(R.id.btnSquare);
+
         btnRectangle = (Button) findViewById(R.id.btnRectangle);
+        btnSquare = (Button) findViewById(R.id.btnSquare);
         btnCircle = (Button) findViewById(R.id.btnCircle);
 
         btnSquare.setOnClickListener(new View.OnClickListener() {
